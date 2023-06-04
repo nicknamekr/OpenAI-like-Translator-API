@@ -6,8 +6,8 @@ OpenAI-like Translaator API. (You can use this service with OpenAI modules, too.
 Powered by Google Translator.
 
 ## Our API
-URL : `https://openai-like-translator-api.seeun0917.repl.co/chat/completions`<br>
-BaseURL, BasePath for OPENai Model :<br>`https://openai-like-translator-api.seeun0917.repl.co`<br>
+URL : `https://1aa2c4d6-97a9-4cb3-a7ab-461c04c3eb2d.id.repl.co/chat/completions`<br>
+BaseURL, BasePath for OPENai Model :<br>`https://1aa2c4d6-97a9-4cb3-a7ab-461c04c3eb2d.id.repl.co`<br>
 Model for OpenAI Module (Chat Completions) :<br>
 ```js
 Input 'SRC(FROM)-DEST(TO)' to your OpenAI code.
@@ -17,7 +17,7 @@ For example (Python):
 import openai
 
 openai.api_key = "You_Don_t_Have_To_Enter_Anything_On_This_Var"
-openai.api_base = "https://openai-like-translator-api.seeun0917.repl.co"
+openai.api_base = "https://1aa2c4d6-97a9-4cb3-a7ab-461c04c3eb2d.id.repl.co"
 
 response = openai.ChatCompletion.create(
     model= "en-ko",
